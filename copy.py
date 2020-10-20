@@ -16,7 +16,7 @@ third.append(7) # manipulating the copyied variable with append function.
 print(third)
 print(second)
 
-# start, stop, step.
+# start, stop, step. 
 print(third[7::-2]) # from 7th to 0th every second letter, inclusively.
 
 print('phil\'s book') # use \ before the single quote to use it in this case.
