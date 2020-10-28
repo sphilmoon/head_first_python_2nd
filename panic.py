@@ -19,6 +19,7 @@ plist.insert(2, plist.pop(3)) # inserting the space on the 2nd index location.
 # plist.extend("on tap")
 
 # now with the new_phrase:
-new_phrase = ''.join(plist) # defining a new variable for printing as a string.
+# defining a new variable for printing as a string.
+new_phrase = ''.join(plist) # turning the list into a string. 
 print(plist) # the modified letter-by-letter list.
 print(new_phrase) # printing the string form.
