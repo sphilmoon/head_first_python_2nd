@@ -2,12 +2,7 @@
 # it uses the temporarily defined variables within its loop.
 vowels = ['a', 'e', 'i', 'o', 'u']
 word = "Milky ways"
-found = []
-for letter in word: # checking the word membership with "in".
-    if letter in vowels: # any vowels in word?
-        if letter not in found: # if these vowels are not in 'found',
-            found.append(letter) # append these vowels to 'found'.
-for vowel in found: # using a new for loop variable 'vowel'.
-    print(vowel) # then print those vowels.
 
-print(found)
+for letter in word: # checking the word membership with "in".
+    if letter in vowels: # identify any vowels in the word.
+        print(letter) # outputting vowels. 

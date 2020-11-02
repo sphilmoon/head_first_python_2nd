@@ -1,9 +1,10 @@
 # for loops do not use pre-defined variables.
 # it uses the temporarily defined variables within its loop.
 # using a list to avoid any duplicates.
+# an interactive mode to find the unique vowels entered by the user. 
 
 vowels = ['a', 'e', 'i', 'o', 'u']
-word = "Milky ways"
+word = input("Provide a word to search for vowels: ")
 found = []
 for letter in word: # checking the word membership with "in".
     if letter in vowels: # any vowels in word?
