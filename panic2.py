@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# using square brackets [] aka slicing to manipulate the list.
 
 phrase = "Don't panic!"
 plist = list(phrase)
