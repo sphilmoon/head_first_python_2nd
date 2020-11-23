@@ -1,4 +1,5 @@
 # using [] for to select specific slices from the list.
+# aka exctracting few fragments using slices.
 # un update from marvin.py
 
 paranoid_android = "Marvin, the Paranoid Android"
