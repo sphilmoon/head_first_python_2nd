@@ -10,28 +10,16 @@ vowels = ['a', 'e', 'i', 'o', 'u'] # a list
 
 found = {} # defining a dictionary and leave it empty to be filled.
 
+# initialize the each values with keys.
+found['a'] = 0
+found['e'] = 0
+found['i'] = 0
+found['o'] = 0
+found['u'] = 0
 
 for letter in word:
     if letter in vowels:
+        found[letter] += 1 # incrementing the value by one.
 
-for k, v in sorted(found.items()): # invoke items method on the found dict.
-    print(k, 'was found', v, 'times(s).')
-
-
-
-
-
-
-
-
-
-
-found = []
-for letter in word: # checking the word membership with "in".
-    if letter in vowels: # any vowels in word?
-        if letter not in found: # if these vowels are not in 'found',
-            found.append(letter) # then append the 'letter' to 'found'.
-for vowel in found: # using a new for loop variable 'vowel'.
-    print(vowel) # then print the 'vowel'.
-
-print(found)
+for k, v in sorted(found.items()): # invoke items method on the found dict. Using two loop variables.
+    print(k, 'was found', v, 'times(s).') # key/values.
