@@ -1,4 +1,4 @@
-# sets start with curly brace.
+# sets start with curly brace, just like dictionaries.
 # sets DO NOT identify key/value pairs. Also, no insertion order.
 # it removes any duplicates. Printing only the unique letters.
 # no colons, only commas.
